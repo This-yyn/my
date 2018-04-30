@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<script>
+(function(){
+setTimeout(function(){
+var obj = document.getElementById("box2");
+obj.style.display = "block";
+},10000);
+})();
+
+</script> 
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	width: 100%;
+	height: 768px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:black;
+}
+#box{ width:600px;
+	height:600px;
+	margin-left: auto;
+	margin-right: auto;
+	animation:img1 5s infinite;
+	float: left;
+}
+#box img{ width:600px;
+	height:600px;
+	animation:img1 5s infinite;
+ 	position: absolute;
+ 	margin-left: 28%;
+}
+@keyframes img1{
+	from{margin-top:40%;}
+	to{margin-top: 8%;}
+	 position: absolute;
+
+}
+#p1{
+	width: 300px;
+	margin-left: 30%;
+	margin-right: auto;
+	margin-top: 0;
+	 position:absolute
+}
+#div1{
+	width: 50px;
+	margin-left: 95%;
+	animation:img2 3s infinite;
+	transition-delay:10s ;
+}
+@keyframes img2{
+	0% {opacity: 2%}
+	75%{opacity: 10%}
+	100%{opacity: 100%}
+	 position: absolut;
+}
+.im2{
+	margin: 28%;
+	margin-top: -10%;
+}
+			#box2{
+				border:darkred solid 4px;
+				width: 800px;
+				height:210px;
+				float: left;
+				position: absolute;
+				margin-left: 20%;
+				margin-top: 10%;
+				
+			}
+			#div3{
+				width: 800px;
+				height: 60px;
+				background-color: darkred;
+				opacity: 1;
+			}
+			#div4{
+				width: 800px;
+				height: 150px;
+				background: darkred;
+				opacity: 0.8;
+			}
+		#div3 p{
+			color: beige;
+			font-family: "微软雅黑";
+			font-size: 18px;
+			padding-top: 15px;
+			padding-left: 5px;
+			position: absolute;
+		}
+		#div4{
+			color:linen;
+			font-family: "微软雅黑";
+			font-size: 20px;
+			text-align: center;
+		}
+		#p_1{
+		animation:p1 15s;
+		opacity: 1;
+		margin-bottom: 5px;
+		}
+		@keyframes p1{
+			0%{opacity: 0;}
+			15%{opacity: 100;}
+			25%{opacity: 0;}
+			50%{opacity: 0;}
+			100%{opacity: 0;}
+			
+		}
+		#p_2{
+		animation:p2 15s;
+		margin-bottom: 5px;
+		}
+		@keyframes p2{
+			0%{opacity: 0;}
+			15%{opacity: 0;}
+			25%{opacity: 100;}
+			50%{opacity: 0;}
+			75%{opacity: 0;}
+			100%{opacity: 0;}
+			
+		}
+		#p_3{
+		animation:p3 15s;
+		margin-bottom: 5px;
+		}
+		@keyframes p3{
+			0%{opacity: 0;}
+			15%{opacity: 0;}
+			25%{opacity: 0;}
+			50%{opacity: 100;}
+			75%{opacity: 0;}
+			100%{opacity: 0;}
+			
+		}
+		#p_4{
+		animation:p4 15s;
+		margin-bottom: 5px;
+		}
+		@keyframes p4{
+			0%{opacity: 0;}
+			15%{opacity: 0;}
+			25%{opacity: 0;}
+			50%{opacity: 0;}
+			75%{opacity: 100;}
+			100%{opacity: 0;}
+			
+		}
+</style>
+</head>
+<body>
+
+<div id="box">
+	<img src="dg.gif" />
+</div>
+<div id="p1">
+	<img src="05.gif" />
+	<img src="12.gif" class="im2" />
+</div>
+<div id="div1">
+</div>
+<embed src="mp3.mp3" width=200 height=50 type=audio/mpeg loop="true" autostart="true"> 
+</body>
+<div id="box2" style="display:none;">
+			<div id="div3">
+			<p>生日快乐！愿你永远做特别的自己</p>
+				</div>
+			<div id="div4">
+			<p id="p_1">-----------时光飞逝，岁月如梭-----------</p>
+			<p id="p_2">-----------不知不觉就认识了你两年-----------</p>
+			<p id="p_3">-----------愿你在这一年中开心过每一天！-----------</p>
+			<p id="p_4">-----------早日脱单╰(￣▽￣)╮-----------</p>
+				</div>
+				</div>
+		</div>
+</html>
